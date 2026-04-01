@@ -1,0 +1,27 @@
+# Automatically normalize line endings for all text-based files
+# https://git-scm.com/docs/gitattributes#_end_of_line_conversion
+
+* text=auto eol=lf
+
+# Common text files
+*.txt text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+
+# Script files
+*.sh text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
+
+*.rs text eol=lf
+*.lock text eol=lf
+
+# Explicitly mark binary files
+*.png binary
+*.jpg binary
+*.gif binary
